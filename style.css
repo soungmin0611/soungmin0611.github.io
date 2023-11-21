@@ -142,7 +142,6 @@ a {
 
 /*몸뚱아리 라인*/
 .container {
-    width: 975px;
     width: 1200px;
     height: 486px;
     margin: 0 auto;
@@ -153,13 +152,18 @@ a {
     width: 770px;
     height: 480px;
 }
-.map{
-    margin-top: 10px;
-    margin-right: 10px;
+
+.map {
+    margin-right: 30px;
     width: 400px;
-    height: 480px;
-    background-color: #005ce2;
+    height: 495px;
+    background-color: rgb(227, 242, 255);
 }
+.map img{
+    width: 405px;
+    height: 495px;
+}
+
 .topWeatherInfo {
     margin-top: 10px;
     width: 770px;
@@ -291,109 +295,135 @@ a {
 .taf p {
     font-size: 12px;
 }
-.weatherInfo2{
+
+.weatherInfo2 {
     width: 770px;
     height: 322px;
 }
-table{
+
+table {
     width: 750px;
 }
-.dat{
+
+.dat {
     width: 80px;
     height: 40px;
     background-color: #ddd;
     border-bottom: 2px solid black;
     border-top: 1px solid rgba(189, 189, 189, 0.4);
 }
-.time{
+
+.time {
     width: 80px;
     height: 25px;
     background-color: #ddd;
     border-bottom: 1px dashed #bbb9b9;
 }
-.cloudLi{
+
+.cloudLi {
     width: 80px;
     height: 67px;
     background-color: #ddd;
     border-bottom: 1px dashed #bbb9b9;
 }
-.defaultli{
+
+.defaultli {
     width: 80px;
     height: 30px;
     background-color: #ddd;
     border-bottom: 1px dashed #bbb9b9;
 }
-th img{
+
+th img {
     width: 35px;
     height: 35px;
-    
+
 }
-.tableW{
-    border-collapse : collapse
+
+.tableW {
+    border-collapse: collapse
 }
-.timeul{
+
+.timeul {
     border-bottom: 1px dashed #bbb9b9;
 }
-.cloudLi th{
+
+.cloudLi th {
     border-bottom: 1px dashed #bbb9b9;
 }
-.windData th{
+
+.windData th {
     border-bottom: 1px dashed #bbb9b9;
 }
-.windPower th{
+
+.windPower th {
     border-bottom: 1px dashed #bbb9b9;
 }
-.vis th{
+
+.vis th {
     border-bottom: 1px dashed #bbb9b9;
 }
-.topcloud th{
+
+.topcloud th {
     border-bottom: 1px dashed #bbb9b9;
 }
-.temp th{
+
+.temp th {
     border-bottom: 1px dashed #bbb9b9;
 }
-.cloudImg2{
+
+.cloudImg2 {
     border-bottom: 1px dashed #bbb9b9;
 }
-.dat1{
+
+.dat1 {
     border-bottom: 2px solid black;
     border-top: 1px solid rgba(189, 189, 189, 0.4);
 }
-table{
+
+table {
     font-size: 12px;
 }
-.weatherInfo2{
+
+.weatherInfo2 {
     margin-top: 5px;
 }
-.warning{
+
+.warning {
     width: 750px;
     height: 40px;
     background: #fffae3;
     display: flex;
     align-items: center;
 }
-.warning img{
+
+.warning img {
     margin-left: 5px;
     width: 30px;
     height: 30px;
 }
-.warning b{
+
+.warning b {
     margin-left: 10px;
     font-size: 18px;
-    color: #ff9406;;
+    color: #ff9406;
+    ;
 }
-.warning p{
+
+.warning p {
     margin-left: 10px;
     font-size: 14px;
     font-weight: 550;
     color: #000000ab;
 }
-.runwayInfo{
+
+.runwayInfo {
     width: 430px;
     height: 497px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
-.runwayhead{
+
+.runwayhead {
     width: 430px;
     height: 40px;
     background-color: #27416B;
@@ -403,4 +433,116 @@ table{
     align-items: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+.bottom{
+    width: 1200px;
+    height: 397px;
+    margin: 0 auto;
+    display: flex;
+}
+.bottom .radar-tab{
+    margin-top: 20px;
+    width: 384px;
+    height: 395px;
+    background-color: #fff; 
+    box-shadow: 0px 5px 10px #f3f3f3;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.sigwx-tab{
+    margin-top: 20px;
+    width: 384px;
+    height: 395px;
+    background-color: #fff; 
+    box-shadow: 0px 5px 10px #f3f3f3;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.main-news{
+    margin-top: 20px;
+    width: 384px;
+    height: 395px;
+
+    border-radius: 15px;
+}
+.tabs{
+    width: 364px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.tabs ul{
+    width: 364px;
+    height: 30px;   
+    display: flex;
+    margin-left: 10px;
+}
+.tabs ul li{
+    width: 66px;
+    height: 30px;
+}
+.tabs ul li a{
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    color: black;
+}
+.tabs img{
+    width: 344px;
+    height: 228px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sigwx-tab .tabs2{
+    width: 364px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sigwx-tab .tabs2 ul{
+    display: flex;
+    margin-left: 10px;
+}
+.sigwx-tab .tabs2 ul li{
+    width: 117px;
+    height: 30px;
+    font-size: 16px;
+    color: #969696;
+}
+.sigwx-tab .tabs2 ul li a{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.sigwx-tab img{
+    margin-top: 10px;
+    width: 344px;
+    height: 280px;
+}
+.news-contents{
+    width: 384px;
+    height: 260px;
+    box-shadow: 0px 5px 10px #f3f3f3;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.news-contents .newstitle{
+    width: 364px;
+    height: 35px;
+    border-bottom: 2px solid #ddd;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    
+}
+.news-list{
+    font-size: 15px;
+}
+.news-list ul{
+    margin-top: 30px;
+}
+.news-list ul li{
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #969696;
+}
+.news-list ul li a{
+    color: black;
 }
