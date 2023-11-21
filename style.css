@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+
+/*대가리 영역*/
+.top-bar {
+    width: 100%;
+    height: 46.8px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.contents {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 45.8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents .top-logo {
+    width: 189px;
+    height: 45.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents a img {
+    width: 189px;
+    height: 26.6px;
+}
+
+.top-right-bar {
+    width: 244px;
+    height: 30px;
+    background-color: #27416B;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login-btn {
+    width: 122px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-btn a {
+    color: white;
+}
+
+.singup-btn {
+    width: 122px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.singup-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 24px;
+    border-left: 1px solid #fff;
+    color: white;
+}
+
+/*메뉴라인*/
+.nav-bar {
+    width: 100%;
+    height: 33px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-contents {
+    margin: 0 auto;
+    width: 100%;
+    height: 33px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-contents ul {
+    display: flex;
+    width: 975px;
+    height: 32px;
+}
+
+.menu-contents ul li {
+    width: 192px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.menu-contents ul li .menuImg {
+    height: 20px;
+}
+
+.menu-contents ul li a:hover {
+    border-bottom: 3px solid black;
+}
+
+.menu-contents .hyper-btn {
+    width: 240px;
+    height: 25px;
+    background: linear-gradient(to right, rgb(0 114 245), rgb(9 203 185));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    border-radius: 50px;
+}
+
+.menu-contents .hyper-btn img {
+    width: 12px;
+    height: 12px;
+}
+
+/*몸뚱아리 라인*/
+.container {
+    width: 975px;
+    width: 1200px;
+    height: 486px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.weatherInfo {
+    width: 770px;
+    height: 480px;
+}
+.map{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 400px;
+    height: 480px;
+    background-color: #005ce2;
+}
+.topWeatherInfo {
+    margin-top: 10px;
+    width: 770px;
+    height: 30.39px;
+    display: flex;
+    align-items: center;
+}
+
+.topWeatherInfo h2 {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #27416B;
+    font-size: 14px;
+    width: 135px;
+    height: 30.39px;
+}
+
+.topWeatherInfo p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.weatherInfoData {
+    width: 750px;
+    height: 128.19px;
+    display: flex;
+    align-items: center;
+}
+
+.cloudData {
+    margin-top: 10px;
+    width: 260px;
+    height: 128px;
+}
+
+.cloudData1 {
+    display: flex;
+}
+
+.cloudImg {
+    width: 177.06px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloudImg img {
+    height: 90px;
+}
+
+.cloudData2 p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cloudData2 h2 {
+    font-size: 40px;
+}
+
+.cloudData3 {
+    width: 260px;
+    height: 37.19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cloudData4 {
+    width: 55px;
+    height: 37.19px;
+}
+
+.cloudData4 b {
+    font-size: 12px;
+}
+
+.cloudData4 .cloudData4_1 {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloudData4 .cloudData4_2 {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1E7EFF;
+}
+
+.metar {
+    margin-left: 20px;
+    width: 250px;
+    height: 115px;
+    border: 1px solid #00b6e0;
+    background: #faffff;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.metar b {
+    font-size: 16px;
+}
+
+.metar p {
+    font-size: 12px;
+}
+
+.taf {
+    margin-left: 10px;
+    width: 250px;
+    height: 115px;
+    border: 1px solid #005ce2;
+    background: #f8fbff;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.taf b {
+    font-size: 16px;
+}
+
+.taf p {
+    font-size: 12px;
+}
+.weatherInfo2{
+    width: 770px;
+    height: 322px;
+}
+table{
+    width: 750px;
+}
+.dat{
+    width: 80px;
+    height: 40px;
+    background-color: #ddd;
+    border-bottom: 2px solid black;
+    border-top: 1px solid rgba(189, 189, 189, 0.4);
+}
+.time{
+    width: 80px;
+    height: 25px;
+    background-color: #ddd;
+    border-bottom: 1px dashed #bbb9b9;
+}
+.cloudLi{
+    width: 80px;
+    height: 67px;
+    background-color: #ddd;
+    border-bottom: 1px dashed #bbb9b9;
+}
+.defaultli{
+    width: 80px;
+    height: 30px;
+    background-color: #ddd;
+    border-bottom: 1px dashed #bbb9b9;
+}
+th img{
+    width: 35px;
+    height: 35px;
+    
+}
+.tableW{
+    border-collapse : collapse
+}
+.timeul{
+    border-bottom: 1px dashed #bbb9b9;
+}
+.cloudLi th{
+    border-bottom: 1px dashed #bbb9b9;
+}
+.windData th{
+    border-bottom: 1px dashed #bbb9b9;
+}
+.windPower th{
+    border-bottom: 1px dashed #bbb9b9;
+}
+.vis th{
+    border-bottom: 1px dashed #bbb9b9;
+}
+.topcloud th{
+    border-bottom: 1px dashed #bbb9b9;
+}
+.temp th{
+    border-bottom: 1px dashed #bbb9b9;
+}
+.cloudImg2{
+    border-bottom: 1px dashed #bbb9b9;
+}
+.dat1{
+    border-bottom: 2px solid black;
+    border-top: 1px solid rgba(189, 189, 189, 0.4);
+}
+table{
+    font-size: 12px;
+}
+.weatherInfo2{
+    margin-top: 5px;
+}
+.warning{
+    width: 750px;
+    height: 40px;
+    background: #fffae3;
+    display: flex;
+    align-items: center;
+}
+.warning img{
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+.warning b{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #ff9406;;
+}
+.warning p{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 550;
+    color: #000000ab;
+}
+.runwayInfo{
+    width: 430px;
+    height: 497px;
+    padding-top: 10px;
+}
+.runwayhead{
+    width: 430px;
+    height: 40px;
+    background-color: #27416B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

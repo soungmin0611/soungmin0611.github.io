@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>항공운항지원 기상서비스</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="contents">
+            <div class="top-logo"><a href="#"><img src="img/logo.png" alt="항공운항지원 기상서비스"></a></div>
+            <div class="top-right-bar">
+                <div class="login-btn"><a href="#">로그인</a></div>
+                <div class="singup-btn"><a href="#">회원가입</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-bar">
+        <div class="menu-contents">
+            <ul>
+                <li><a href="#">관측/기후</a></li>
+                <li><a href="#">예보/특보</a></li>
+                <li><a href="#">일기도/WAFS</a></li>
+                <li><a href="#">날씨영상</a></li>
+                <li><a href="#"><img src="img/메뉴바.png" alt="메뉴바" class="menuImg"></a></li>
+            </ul>
+            <a href="https://amo.kma.go.kr/" class="hyper-btn"><img src="img/shortcuts-icon.png" alt="#">항공기상청 바로가기</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="map">
+            
+        </div>
+        <div class="weatherInfo">
+            <div class="topWeatherInfo">
+                <h2>태안비행장 기상정보</h2>
+                <p>202X년 XX월 XX일(X) XX:XX UTC</p>
+            </div>
+            <div class="weatherInfoData">
+                <div class="cloudData">
+                    <div class="cloudData1">
+                        <div class="cloudImg"><img src="img/mtph02.png" alt="구름 조금"></div>
+                        <div class="cloudData2">
+                            <p>구름조금</p>
+                            <h2>9.8°C</h2>
+                        </div>
+                    </div>
+                    <div class="cloudData3">
+                        <div class="cloudData4">
+                            <div class="cloudData4_1"><b>시정</b></div>
+                            <div class="cloudData4_2"><b>10km↑</b></div>
+                        </div>
+                        <div class="cloudData4">
+                            <div class="cloudData4_1"><b>풍향</b></div>
+                            <div class="cloudData4_2"><b>270°</b></div>
+                        </div>
+                        <div class="cloudData4">
+                            <div class="cloudData4_1"><b>풍속</b></div>
+                            <div class="cloudData4_2"><b>6kt</b></div>
+                        </div>
+                        <div class="cloudData4">
+                            <div class="cloudData4_1"><b>1시간강수</b></div>
+                            <div class="cloudData4_2"><b>-</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="metar">
+                    <b>METAR(UTC)</b>
+                    <p>METAR RKSI 170030Z 06004KT 040V100 CAVOK 05/M09 Q1015 TEMPO -RA
+                        BKN028=</p>
+                </div>
+                <div class="taf">
+                    <b>TAF(UTC)</b>
+                    <p>TAF RKSI 162300Z 1700/1806 27008KT CAVOK
+                        TX04/1705Z TNM02/1720Z TX07/1805Z
+                        TEMPO 1701/1707 33017G35KT 4000 -RASN FEW010CB BKN028
+                    </p>
+                </div>
+            </div>
+            <div class="weatherInfo2">
+                <table class="tableW">
+                    <th class="dat">날짜</th>
+                    <th class="dat1"></th>
+                    <th class="dat1"></th>
+                    <th class="dat1"></th>
+                    <th class="dat1"></th>
+                    <th class="dat1"></th>
+                    <th class="dat1"></th>
+                    <th class="dat1"></th>
+                    <th class="dat1"></th>
+                    <tr class="timeul">
+                        <th class="time">시간</th>
+                        <th>10시</th>
+                        <th>11시</th>
+                        <th>12시</th>
+                        <th>13시</th>
+                        <th>14시</th>
+                        <th>15시</th>
+                        <th>16시</th>
+                        <th>17시</th>
+                    </tr>
+                    <tr class="cloudImg2">
+                        <th class="cloudLi">날씨</th>
+                        <th><img src="img/잔눈깨비.png" alt="진눈깨비"><p>진눈깨비</p></th>
+                        <th><img src="img/잔눈깨비.png" alt="진눈깨비"><p>진눈깨비</p></th>
+                        <th><img src="img/잔눈깨비.png" alt="진눈깨비"><p>진눈깨비</p></th>
+                        <th><img src="img/잔눈깨비.png" alt="진눈깨비"><p>진눈깨비</p></th>
+                        <th><img src="img/잔눈깨비.png" alt="진눈깨비"><p>진눈깨비</p></th>
+                        <th><img src="img/잔눈깨비.png" alt="진눈깨비"><p>진눈깨비</p></th>
+                        <th><img src="img/잔눈깨비.png" alt="진눈깨비"><p>진눈깨비</p></th>
+                        <th><img src="img/잔눈깨비.png" alt="진눈깨비"><p>진눈깨비</p></th>
+                    </tr>
+                    <tr class="windData">
+                        <th class="defaultli">풍향</th>
+                        <th>330°</th>
+                        <th>330°</th>
+                        <th>330°</th>
+                        <th>330°</th>
+                        <th>330°</th>
+                        <th>330°</th>
+                        <th>330°</th>
+                        <th>330°</th>
+                    </tr>
+                    <tr class="windPower">
+                        <th class="defaultli">풍속</th>
+                        <th>17kt</th>
+                        <th>17kt</th>
+                        <th>17kt</th>
+                        <th>17kt</th>
+                        <th>17kt</th>
+                        <th>17kt</th>
+                        <th>17kt</th>
+                        <th>17kt</th>
+                    </tr>
+                    <tr class="vis">
+                        <th class="defaultli">시정</th>
+                        <th>4000 m</th>
+                        <th>4000 m</th>
+                        <th>4000 m</th>
+                        <th>4000 m</th>
+                        <th>4000 m</th>
+                        <th>4000 m</th>
+                        <th>4000 m</th>
+                        <th>4000 m</th>
+                    </tr>
+                    <tr class="topcloud">
+                        <th class="defaultli">운고</th>
+                        <th>1000 ft</th>
+                        <th>1000 ft</th>
+                        <th>1000 ft</th>
+                        <th>1000 ft</th>
+                        <th>1000 ft</th>
+                        <th>1000 ft</th>
+                        <th>1000 ft</th>
+                        <th>1000 ft</th>
+                    </tr>
+                    <tr class="temp">
+                        <th class="defaultli">기온</th>
+                        <th>3℃</th>
+                        <th>3℃</th>
+                        <th>3℃</th>
+                        <th>3℃</th>
+                        <th>3℃</th>
+                        <th>3℃</th>
+                        <th>3℃</th>
+                        <th>3℃</th>
+                    </tr>
+                </table>
+                <div class="warning">
+                    <img src="img/main_news_icon.png" alt=""><b>공항경보</b><p>제주공항 : 강풍(11.17 00:30 ~ 11.17 10:00 KST)</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
